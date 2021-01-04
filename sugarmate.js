@@ -1,4 +1,3 @@
-const http = require('https');
 
 exports.handler = (event, context, callback) => {
     var key = event['queryStringParameters']['key'];
